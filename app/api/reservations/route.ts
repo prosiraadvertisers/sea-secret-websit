@@ -90,7 +90,7 @@ const outletInfo = outletData[outlet]
 
     await transport.sendMail({
   from: `"Sea Secret Website" <${process.env.EMAIL_USER}>`,
-  to: outletInfo.email,
+  to: 'theseasecretdeccan@gmail.com',
   subject,
   text: message,
 })

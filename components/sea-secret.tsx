@@ -302,7 +302,7 @@ export function SeaSecret() {
               </div>
             </article>
 
-            {/* Crab Festival */}
+            {/* Crab Festival */} 
             <article className="event-card event-card-crab">
               <div className="event-card-media">
                 <img

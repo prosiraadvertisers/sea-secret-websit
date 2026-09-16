@@ -98,7 +98,7 @@ export default function ContactPage() {
               <p>
                 <Mail size={18} />
                 <span>
-                  <a href="mailto:theseasecretnibm@gmail.com">theseasecretnibm@gmail.com</a>
+                  <a href="mailto:theseasecretdeccan@gmail.com">theseasecretdeccan@gmail.com</a>
                 </span>
               </p>
 
