@@ -392,7 +392,7 @@ export function SeaSecret() {
               <h3>Sabu Varghese</h3>
               <p>
                 "Every guest who walks into Sea Secret should leave with
-                unforgettable memories and authentic flavours."
+                unforgettable memories & authentic flavours."
               </p>
             </div>
           </article>
