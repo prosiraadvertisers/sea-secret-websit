@@ -344,6 +344,38 @@ export function SeaSecret() {
               </div>
             </article>
 
+            {/* Non-Veg Sadhya */}
+            <article className="event-card event-card-upcoming">
+              <div className="event-card-media">
+                <img
+                  src="/vishusadhya/nonvegsadhya.webp"
+                  alt="Festive Sadhya spread at Sea Secret"
+                  loading="lazy"
+                />
+
+                <span className="event-pill event-pill-accent">
+                  Coming Soon
+                </span>
+              </div>
+
+              <div className="event-card-body">
+                <small>Coastal Feast</small>
+
+                <h3>Non-Veg Sadhya</h3>
+
+                <p>
+                  A festive feast with coastal favourites and
+                  chef-crafted non-veg specialties is coming soon to Sea
+                  Secret. Stay tuned for details.
+                </p>
+
+                <div className="event-details">
+                  <span>Coming Soon</span>
+                  <span>Stay Tuned</span>
+                </div>
+              </div>
+            </article>
+
           </div>
 
           <a className="button button-cream" href="/contact">
