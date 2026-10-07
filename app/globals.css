@@ -1335,4 +1335,88 @@ h1 em, h2 em { color: var(--gold); font-style: italic; }
   color: #cda863;
 }
 
+.sadhya-announcement {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1120px;
+  margin: -1.4rem auto 0;
+  padding: 1.1rem 1.4rem;
+  border: 1px solid rgb(217 195 155 / 58%);
+  border-radius: 1rem;
+  background: linear-gradient(110deg, #489463, #02384d);
+  color: var(--cream);
+  box-shadow: 0 14px 36px rgb(6 52 79 / 20%);
+}
+
+.sadhya-announcement-icon {
+  display: grid;
+  width: 2.8rem;
+  height: 2.8rem;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid rgb(217 195 155 / 55%);
+  border-radius: 50%;
+  color: var(--gold);
+}
+
+.sadhya-announcement-copy {
+  display: flex;
+  flex: 1;
+  align-items: baseline;
+  flex-wrap: wrap;
+  column-gap: 0.7rem;
+  row-gap: 0.25rem;
+}
+
+.sadhya-announcement-copy > span {
+  color: var(--gold);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.sadhya-announcement-copy strong {
+  font-family: var(--font-playfair), serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+
+.sadhya-announcement-copy p {
+  flex-basis: 100%;
+  margin: 0;
+  color: rgb(255 248 236 / 76%);
+  font-size: 0.82rem;
+}
+
+.sadhya-announcement-badge {
+  flex: 0 0 auto;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid rgb(217 195 155 / 55%);
+  border-radius: 999px;
+  color: var(--gold);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 760px) {
+  .sadhya-announcement {
+    margin: 0 1rem;
+    padding: 1rem;
+  }
+
+  .sadhya-announcement-copy strong {
+    font-size: 1.2rem;
+  }
+
+  .sadhya-announcement-badge {
+    align-self: flex-start;
+    font-size: 0.58rem;
+  }
+}
 

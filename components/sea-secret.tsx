@@ -145,6 +145,18 @@ export function SeaSecret() {
         </div>
       </section>
 
+      <aside className="sadhya-announcement" aria-label="Announcement">
+        <div className="sadhya-announcement-icon" aria-hidden="true">
+          <Bell size={20} />
+        </div>
+        <div className="sadhya-announcement-copy">
+          <span>Coming soon at Sea Secret</span>
+          <strong>Non-Veg Sadhya</strong>
+          <p>A grand coastal feast is on its way. Stay tuned!</p>
+        </div>
+        <span className="sadhya-announcement-badge">Announcement</span>
+      </aside>
+
       <section id="about-teaser" className="section story-section">
         <LeafCorners />
 
@@ -279,9 +291,7 @@ export function SeaSecret() {
                   loading="lazy"
                 />
 
-                <span className="event-pill event-pill-accent">
-                  Completed
-                </span>
+                <span className="event-pill event-pill-accent">Completed</span>
               </div>
 
               <div className="event-card-body">
@@ -302,7 +312,7 @@ export function SeaSecret() {
               </div>
             </article>
 
-            {/* Crab Festival */} 
+            {/* Crab Festival */}
             <article className="event-card event-card-crab">
               <div className="event-card-media">
                 <img
@@ -333,6 +343,7 @@ export function SeaSecret() {
                 </div>
               </div>
             </article>
+
           </div>
 
           <a className="button button-cream" href="/contact">
