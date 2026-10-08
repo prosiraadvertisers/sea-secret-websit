@@ -133,8 +133,8 @@ export function SiteFooter() {
               <br />
               <a href="tel:+918530141444">+91 85301 41444</a>
               <br />
-              <a href="mailto:theseasecretnibm@gmail.com">
-                theseasecretnibm@gmail.com
+              <a href="mailto:theseasecretdeccan@gmail.com">
+                theseasecretdeccan@gmail.com
               </a>
             </p>
           </div>
